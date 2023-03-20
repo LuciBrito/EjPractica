@@ -19,9 +19,9 @@ header{
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    border-color: aquamarine;
     height: 250px;
     width: auto;
     padding-top: 10px;
     padding-left: 10px;
+    border-top:solid 10px aquamarine;
 }
