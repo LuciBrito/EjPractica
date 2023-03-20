@@ -13,6 +13,7 @@ header{
 .wrapper{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .card{
     display: flex;
@@ -24,4 +25,8 @@ header{
     padding-top: 10px;
     padding-left: 10px;
     border-top:solid 10px aquamarine;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
