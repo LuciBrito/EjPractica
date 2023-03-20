@@ -10,5 +10,12 @@ header{
 }
 .wrapper{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-color: aquamarine;
 }
