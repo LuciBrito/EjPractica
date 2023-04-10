@@ -6,12 +6,14 @@
     padding: 0px;
     transition: all 0.7s ease;
 }
+/* Google fonts */
 .quick{
     font-family: 'Quicksand', sans-serif;
 }
 .robot{
     font-family: 'Roboto', sans-serif;
 }
+/* Header */
 .header{
     padding: 10%;
     position: relative;
@@ -21,6 +23,9 @@
     background-size: cover;
     box-shadow: inset 0 0 150px 20px black;
     margin-bottom: 40px;
+}
+.welcome{
+    padding-bottom:80px ;
 }
 .header .welcome{
     position: absolute;
@@ -75,6 +80,7 @@
     transform: scale(1);
     color: rgb(0, 0, 0);
 }
+/* Selector universal */
 nav{
     background-color: yellow;
 }
@@ -97,4 +103,26 @@ nav ul li{
     flex-shrink: 1;
     flex-basis: 0px; */
 }
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+}
 
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: yellow;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);;
+}
