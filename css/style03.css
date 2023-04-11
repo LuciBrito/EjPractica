@@ -99,6 +99,7 @@ nav ul li{
     text-align: center;
     list-style: none;
     
+    
     /* flex-grow:1 ;
     flex-shrink: 1;
     flex-basis: 0px; */
@@ -124,5 +125,80 @@ nav ul li{
 
 /* SELECTOR hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(84, 171, 142);;
+    background: rgb(110, 110, 29);
+}
+
+/*--------COMPONENTES RESTORANTES-----*/
+.ofresto {
+    background-color: rgba(128, 128, 128, 0.383);
+    padding: 14px;
+}
+
+.ofresto .lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lista .resto {
+    border-radius: 14px;
+    /* overflow: hidden; */
+    flex: 1 0 180px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px 3px black;
+}
+
+.resto .imagen {
+    height: 100%;
+    width: 40%;
+}
+
+.resto .descrip {
+    height: 100%;
+    width: 60%;
+    background-color: blanchedalmond;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 14px;
+}
+.imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px 0 0 14px;
+}
+/* CARDS HOTELES */
+.descrip .datos{
+    display: flex;
+    justify-content: space-between;
+}
+.val , .rangoprecio{
+    color: rgb(170, 200, 124);
+}
+.datosresto{
+    display: flex;
+    flex-direction: column;
+}
+/* colores */
+.text2{
+    color: gray;
+}
+/*  */
+.rate{
+    background-color: rgb(168, 233, 122);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 15px 0px ;
+    text-align: center;
+    line-height: 50px;
+    color: wheat;
+    font-size: 16pt;
+    position: absolute;
+    right: 5px;
+    top: -5px;
 }
