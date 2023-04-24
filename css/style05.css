@@ -240,3 +240,38 @@ nav ul li{
     color: black;
     height: 56px;
 }
+
+/* --------------------Menu------------------ */
+.posrel{
+    position: relative;
+    width: 100%;
+}
+.cerrar_menu{
+    position: fixed;
+    top: 0;
+    background-color: rgb(202, 255, 255);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cerrar_menu button{
+    position: absolute;
+    border: 0;
+    left: 40px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.cerrar_menu h3{
+   width: 100%;
+   text-align: center;
+}
+/* .pad_top60{
+    padding-top: ;
+} */
+.lista_menu{
+    background-color: aquamarine;
+    height: 300px;
+    width: 100%;
+}
