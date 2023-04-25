@@ -6,6 +6,14 @@
     padding: 0px;
     transition: all 0.7s ease;
 }
+
+.z0{
+    z-index: 0;
+}
+.z10{
+    z-index: 10;
+}
+
 /* Google fonts */
 .quick{
     font-family: 'Quicksand', sans-serif;
@@ -214,7 +222,6 @@ nav ul li{
     right: 5%;
     bottom: -25px;
 }
-
 .sm{
     font-size: 14pt !important;
 }
@@ -242,36 +249,83 @@ nav ul li{
 }
 
 /* --------------------Menu------------------ */
-.posrel{
+.posrel60 {
     position: relative;
     width: 100%;
 }
-.cerrar_menu{
+
+.cerrar_menu {
     position: fixed;
     top: 0;
-    background-color: rgb(202, 255, 255);
+    background-color: rgb(181, 181, 181);
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.cerrar_menu button{
+
+.cerrar_menu button {
     position: absolute;
-    border: 0;
-    left: 40px;
     cursor: pointer;
+    border: 0;
     background-color: transparent;
+    left: 40px;
 }
-.cerrar_menu h3{
-   width: 100%;
-   text-align: center;
+
+.cerrar_menu h3 {
+    width: 100%;
+    text-align: center;
 }
-/* .pad_top60{
-    padding-top: ;
-} */
-.lista_menu{
-    background-color: aquamarine;
+
+.pad_top60 {
+    padding-top: 60px;
+}
+.pad_bot60{
+    padding-bottom: 60px;
+}
+.lista_menu {
+    background-color: rgb(208, 208, 255);
     height: 300px;
     width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.item_menu{
+    background-color: aqua;
+    height: 150px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    gap: 30px;
+}
+
+.item_imagen{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(232, 248, 0);
+    border-radius: 50%;
+    position: relative;
+}
+.item_imagen .rate{
+    font-size: 9pt;
+    height: 30px;
+    right: 0;
+    bottom: 20px;
+    line-height: 30px;
+    border-radius: 10px 0 10px 0;
+
+}
+.item_imagen img{
+    object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+}
+.item_detalle{
+    line-height: 30px;
+    width: calc(100% - 100px);
 }
