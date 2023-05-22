@@ -1,0 +1,9 @@
+@media screen and (max-width:662px) {
+    ::-webkit-scrollbar{
+        height: 0px;
+    }   
+    .inicio{
+        height: 580px;
+        width: 320px;
+    }
+}
