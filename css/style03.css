@@ -144,7 +144,7 @@ nav ul li{
     border-radius: 14px;
     /* overflow: hidden; */
     flex: 1 0 180px;
-    background-color: yellow;
+    height:180px;
     display: flex;
     align-items: center;
     position: relative;
