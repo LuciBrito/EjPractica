@@ -90,7 +90,7 @@ nav ul{
     font-size: 20pt;
     display: flex;
     justify-content: space-between;
-    background-color: wheat;
+    background-color: white;
     gap: 10px;
     overflow-x: scroll;
 }
@@ -200,7 +200,7 @@ nav ul li{
     border-radius: 15px 0 15px 0px ;
     text-align: center;
     line-height: 50px;
-    color: wheat;
+    color: white;
     font-size: 16pt;
     position: absolute;
     right: -5px;
@@ -212,7 +212,7 @@ nav ul li{
 }
 .rate__resto{
     right: 5%;
-    bottom: -25px;
+    top: 92%;
 }
 
 .sm{
