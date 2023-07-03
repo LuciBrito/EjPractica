@@ -13,6 +13,10 @@
 .robot{
     font-family: 'Roboto', sans-serif;
 }
+h4{
+    color: white;
+    font-size:10pt;
+}
 /* Header */
 .header{
     padding: 10%;
