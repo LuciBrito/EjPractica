@@ -95,10 +95,10 @@ nav ul{
     overflow-x: scroll;
 }
 nav ul li{
-    flex: 0 0 200px;
+    flex: 0 0 129px;
     text-align: center;
     list-style: none;
-    
+    color:orange;
     
     /* flex-grow:1 ;
     flex-shrink: 1;
